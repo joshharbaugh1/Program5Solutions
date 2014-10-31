@@ -152,13 +152,13 @@ namespace Week1Practice
         //each item on the list while putting each on a seperate line
         static void PuttingItTogether2(List<string> list)
         {
-            for (int i = 0; i < list.Count; i = i + 1)
+            for (int i = 0; i < list.Count(); i = i + 1)
             {
                 Console.WriteLine(list[i] + " has " + list[i].Length + " in it.");
             }
         }
         //a function that prints "Hello" and your name to the console
-        static void Greeting(string name)
+        static string Greeting(string name)
         {
             Console.WriteLine("Hello " + name);
         }

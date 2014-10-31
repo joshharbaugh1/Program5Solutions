@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\FlipMainia\FlipMainia\bin\Debug\FlipMainia.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\FlipMainia\FlipMainia\bin\Debug\FlipMainia.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\FlipMainia\FlipMainia\bin\Debug\FlipMainia.pdb
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\FlipMainia\FlipMainia\obj\Debug\FlipMainia.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\FlipMainia\FlipMainia\obj\Debug\FlipMainia.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\FlipMainia\FlipMainia\obj\Debug\FlipMainia.pdb

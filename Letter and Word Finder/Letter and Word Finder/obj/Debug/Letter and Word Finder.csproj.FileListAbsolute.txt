@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Letter and Word Finder\Letter and Word Finder\bin\Debug\Letter and Word Finder.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Letter and Word Finder\Letter and Word Finder\bin\Debug\Letter and Word Finder.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Letter and Word Finder\Letter and Word Finder\bin\Debug\Letter and Word Finder.pdb
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Letter and Word Finder\Letter and Word Finder\obj\Debug\Letter and Word Finder.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Letter and Word Finder\Letter and Word Finder\obj\Debug\Letter and Word Finder.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Letter and Word Finder\Letter and Word Finder\obj\Debug\Letter and Word Finder.pdb
