@@ -40,7 +40,7 @@ namespace GroupPicker
 
                 if (GroupList.Count() == GroupSize)
                 {
-                    Console.WriteLine("Group \n #{0} #{1} #{2} #{3} #{4}", GroupList[0], GroupList[1], GroupList[2], GroupList[3], GroupList[4]);
+                    Console.WriteLine("Group: \n #{0} #{1} #{2} #{3} #{4}", GroupList[0], GroupList[1], GroupList[2], GroupList[3], GroupList[4]);
                     GroupList.Clear();
                     
                 }
