@@ -28,7 +28,7 @@ namespace LoopingOverLists
                 //get the current sport out of sportsList
                 string currentSport = sportsList[i];
                 //check to see if its a sport with the word
-                //"ball in it
+                //"ball" in it
                 if (currentSport.Contains("ball"))
                 {
                     //its true

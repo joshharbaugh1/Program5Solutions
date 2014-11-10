@@ -56,11 +56,13 @@ namespace Week_1_Code_Challenge
         static void Yodaizer(string text)
         {
             Console.WriteLine();
-            string[] stringArray = text.Split(' ');
-            for (int i = stringArray.Count() - 1; i >= 0; i--)
+            List<string> wordList = text.Split(' ').ToList();
+            for (int i = wordList.Count() - 1; i >= 0 ; i--)
             {
-                Console.WriteLine(stringArray[i]);
+                string currentWord = wordList[i];
+                Console.Write(currentWord + " ");
             }
+            Console.WriteLine();
         }
         static void TextStats(string input)
         {
@@ -89,6 +91,7 @@ namespace Week_1_Code_Challenge
                 }
             }
                 numberOfWords = stringArray.Length;
+ 
             Console.WriteLine("Number of characters: " +numberOfCharacters);
             Console.WriteLine("Number of words: " + numberOfWords);
             Console.WriteLine("Number of vowels: " + numberOfVowels);
@@ -119,25 +122,23 @@ namespace Week_1_Code_Challenge
         static void DashInsert(int number)
         {
             string input = number.ToString();
-            for (int i = 0; i <= input.Length; i++)
+            string outputString = string.Empty;
+
+            for (int i = 0; i < input.Length - 1; i++)
             {
-                if (int.Parse(input[i].ToString()) % 2 != 0)
-                {
-                    if (int.Parse(input[i - 1].ToString()) % 2 != 0)
-                    {
-                        Console.Write('-' + input[i].ToString());
-                    }
-                    
-                    else
-                    {
-                        Console.Write(input[i].ToString());
-                    }
-                }
+                int currentDigit = int.Parse (input[i].ToString());
+                int nextDigit = int.Parse(input[i + 1].ToString());
+                if (currentDigit % 2 != 0 && nextDigit % 2 != 0)
+	{
+		 outputString += currentDigit + "-";
+	}
                 else
-                {
-                    Console.Write(input[i].ToString());
-                }
+	{
+                    outputString += currentDigit;
+	}
             }
+            outputString += input[input.Length - 1];
+            Console.WriteLine("Dash number: " + outputString);
         }   
     }
 }
